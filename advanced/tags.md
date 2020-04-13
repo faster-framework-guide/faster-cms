@@ -20,6 +20,8 @@ id|根据id获取栏目|long|-
 show|获取展示的栏目|boolean|true
 top|仅获取置顶的栏目|boolean|默认获取全部
 as|标签内部使用数据前缀，默认为data，如：data.id|string|data
+pcode|通过父栏目编码获取栏目|string|-
+exclude|排除某个id的栏目|string|-
 
 ### 介绍
 
@@ -50,6 +52,7 @@ top|仅获取置顶的文章|boolean|默认获取全部
 scode|根据栏目code获取文章|string|-
 sid|根据栏目id获取文章，优先级大于scode|long|-
 as|标签内部使用数据前缀，默认为data，如：data.id|string|data
+exclude|排除某个id的文章|string|-
 
 
 ## 字典
